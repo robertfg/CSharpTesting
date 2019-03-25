@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TreehouseDefense.Tests
 {
-    public class MapTests
+    public class MapTests1
     {
         [Fact()]
         public void MapTest()

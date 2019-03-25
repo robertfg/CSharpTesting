@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{015317AC-171B-4E36-85D9-A4B4703295A0}</ProjectGuid>
+    <ProjectGuid>{1BA08463-C3CD-4AA0-850B-7D5EB2E7BAA7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TreehouseDefenseTests</RootNamespace>
-    <AssemblyName>TreehouseDefenseTests</AssemblyName>
+    <RootNamespace>CodeChallengesTests1</RootNamespace>
+    <AssemblyName>CodeChallengesTests1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -63,28 +63,18 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="Mocks\InvaderMock.cs" />
-    <Compile Include="MapLocationTests.cs" />
-    <Compile Include="MapTests.cs" />
-    <Compile Include="scrap\MapTests1.cs" />
-    <Compile Include="PathTests.cs" />
-    <Compile Include="PointTests.cs" />
+    <Compile Include="CalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TowerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TreehouseDefense\TreehouseDefense.csproj">
-      <Project>{213F5965-CF98-4FC7-BDB9-03588E816EE4}</Project>
-      <Name>TreehouseDefense</Name>
+    <ProjectReference Include="..\CodeChallenges\CodeChallenges.csproj">
+      <Project>{DC60FDA1-732C-4A1F-AA8F-DD99C5A8E071}</Project>
+      <Name>CodeChallenges</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
