@@ -11,9 +11,9 @@ namespace CodeChallenges
         static void Main(string[] args)
         {
             var target = new Calculator(1.1);
-            Console.WriteLine(target.Result());
+            Console.WriteLine(target.Result);
             target.Add(2.2);
-            Console.WriteLine(target.Result());
+            Console.WriteLine(target.Result);
 
             Console.ReadKey();
         }
